@@ -1,0 +1,7 @@
+Para instalar y generar el jar se ha de realizar con el comando
+
+mvn clean install
+
+Y para obtener la cobertura:
+
+mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent test org.jacoco:jacoco-maven-plugin:report
